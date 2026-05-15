@@ -24,8 +24,7 @@ Resources:
         InstanceType: t3.micro
 
         SecurityGroupIds:
-          - !Ref MySecurityGroup
-
+          - !GetAtt MySecurityGroup.GroupId
   MyAutoScalingGroup:
     Type: AWS::AutoScaling::AutoScalingGroup
     Properties:
