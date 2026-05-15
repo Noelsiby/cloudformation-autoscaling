@@ -34,7 +34,7 @@ Resources:
       DesiredCapacity: '1'
 
       VPCZoneIdentifier:
-        - subnet-xxxxxxxx
+        - subnet-044032d6068cf92e3
 
       LaunchTemplate:
         LaunchTemplateId: !Ref MyLaunchTemplate
